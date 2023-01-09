@@ -1,6 +1,6 @@
 .cardContainer{
-    width: 150px;
-    background: powderblue;
+    width: 300px;
+    background: #c8d5ff;
 }
 .cardContainerTop{
     display: flex;
