@@ -4,7 +4,7 @@ import {Nav} from "./navigation/Nav";
 export const Header = () => {
     return (
         <div className={style.header}>
-          <header >
+          <header className={style.header}>
               <Nav />
           </header>
         </div>
