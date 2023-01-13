@@ -6,7 +6,7 @@ type MyWorkItemPropsType = {
     projectDescription:string
 }
 
-const MyWorkItem = (props:MyWorkItemPropsType) => {
+export const MyWorkItem = (props:MyWorkItemPropsType) => {
     const{projectName,projectDescription, ...restProps }= props
     return (
         <div className={styles.MyWorkItem}>
@@ -20,5 +20,3 @@ const MyWorkItem = (props:MyWorkItemPropsType) => {
         </div>
     );
 };
-
-export default MyWorkItem;

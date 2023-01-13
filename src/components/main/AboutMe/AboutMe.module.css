@@ -1,6 +1,6 @@
 .aboutMe{
     background-color: gray;
-    height: 500px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +9,23 @@
     border: #282c34 solid ;
     display: flex;
     padding: 40px;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
 }
 .aboutMeText{
-    width: 200px;
+    max-width: 200px;
+    min-width: 100px;
     background-color: #c8d5ff;
     border-radius: 10px;
 }
 .avatar{
     height: 220px;
     width: 155px;
+}
+@media (max-width: 640px ) {
+    .aboutMe{
+    }
+    .aboutMeContent{
+        flex-direction: column;
+    }
 }

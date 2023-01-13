@@ -1,5 +1,6 @@
 .cardContainer{
-    width: 300px;
+    min-width: 150px;
+    max-width: 250px;
     background: #c8d5ff;
 }
 .cardContainerTop{
@@ -12,8 +13,14 @@
 .pow{
     width: 50px;
     height: 50px;
-    background-color: #282c34;
+    background-color: wheat;
 }
 .cardContainerBottom{
 
+}
+@media (max-width: 640px) {
+    .cardContainer{
+        margin-bottom: 20px;
+        border: 1px #282c34 solid;
+    }
 }

@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    min-height: 400px;
 }
 .mySkills{
     width: 600px;
@@ -16,4 +16,14 @@
 .mySkillsBottom{
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 640px) {
+    .mySkills{
+        width: 300px;
+    }
+    .mySkillsBottom{
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -3,12 +3,14 @@ import style from './Main.module.css'
 import AboutMe from "./AboutMe/AboutMe";
 import {MySkills} from "./MySkills/MySkills";
 import MyWork from "./MyWork/MyWork";
+import {RemoteWork} from "./RemoteWork/RemoteWork";
 export const Main = () => {
     return (
         <div className={style.main}>
             <AboutMe />
             <MySkills />
             <MyWork/>
+            <RemoteWork/>
         </div>
     );
 };

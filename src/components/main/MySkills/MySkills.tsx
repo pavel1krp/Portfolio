@@ -11,9 +11,9 @@ export class MySkills extends Component {
                         <h2>Мои скиллы</h2>
                     </div>
                     <div className={styles.mySkillsBottom}>
-                        <SkillsCard skillsDescription={'Js'} skillName={'JS'}/>
-                        <SkillsCard skillsDescription={'Css'} skillName={'Css'}/>
-                        <SkillsCard skillsDescription={'React'} skillName={'React'}/>
+                        <SkillsCard skillsDescription={'Js Description'} skillName={'JS'}/>
+                        <SkillsCard skillsDescription={'Css Description'} skillName={'Css'}/>
+                        <SkillsCard skillsDescription={'React Description'} skillName={'React'}/>
                     </div>
                 </div>
             </div>

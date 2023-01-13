@@ -1,5 +1,5 @@
 import React from 'react';
-import MyWorkItem from "./MyWorkItem/MyWorkItem";
+import {MyWorkItem} from "./MyWorkItem/MyWorkItem";
 import styles from "./MyWork.module.css"
 const MyWork = () => {
     return (

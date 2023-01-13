@@ -1,0 +1,22 @@
+.remoteWrapper{
+    min-height: 250px;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remote{
+    min-height: 150px;
+    border: 2px solid gray;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    width: 150px;
+    color: white;
+    background-color: black;
+    height: 40px;
+}
