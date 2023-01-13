@@ -20,7 +20,9 @@
 @media (max-width: 640px) {
     .mySkills{
         width: 300px;
+        margin: 20px;
     }
+
     .mySkillsBottom{
         padding: 20px 0;
         flex-direction: column;
