@@ -20,3 +20,8 @@ button{
     background-color: black;
     height: 40px;
 }
+@media (max-width: 640px) {
+    .remote{
+        border: none;
+    }
+}

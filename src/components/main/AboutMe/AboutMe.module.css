@@ -8,22 +8,33 @@
 .aboutMeContent{
     border: #282c34 solid ;
     display: flex;
-    padding: 40px;
-    gap: 100px;
+    padding: 50px;
+    gap: 260px;
     align-items: center;
 }
-.aboutMeText{
-    max-width: 200px;
+.aboutMeTextContainer{
+    text-align: center;
+    max-width: 300px;
+    min-height: 80px;
     min-width: 100px;
     background-color: #c8d5ff;
     border-radius: 10px;
+}
+.aboutMeText{
+
 }
 .avatar{
     height: 220px;
     width: 155px;
 }
+@media (max-width: 860px ) {
+    .aboutMeContent{
+        gap: 20px;
+    }
+}
 @media (max-width: 640px ) {
     .aboutMe{
+        padding: 20px;
     }
     .aboutMeContent{
         flex-direction: column;
