@@ -8,7 +8,7 @@
 .remote{
     min-height: 150px;
     border: 2px solid gray;
-    width: 600px;
+    width: 818px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +19,11 @@ button{
     color: white;
     background-color: black;
     height: 40px;
+}
+@media (max-width: 860px ) {
+    .remote{
+        border: none;
+    }
 }
 @media (max-width: 640px) {
     .remote{

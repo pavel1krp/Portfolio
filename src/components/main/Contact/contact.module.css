@@ -7,7 +7,7 @@
 }
 .contactFormDiv{
     border: 2px solid black;
-    width: 600px;
+    width: 780px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,9 +19,36 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 260px;
+
+}
+.contactInput{
+    height: 18px;
+    width: 350px;
 }
 .contactTextArea{
-    height: 50px;
+    height: 70px;
+    width: 350px;
     resize: none;
+}
+@media (max-width: 860px ) {
+    .contactFormDiv{
+        border: none;
+    }
+    .contactInput{
+        width: 80vw;
+    }
+    .contactTextArea{
+        width: 80vw ;
+    }
+}
+@media (max-width: 640px) {
+    .contactFormDiv{
+        padding: 0
+    }
+    .contactInput{
+        width: 98vw;
+    }
+    .contactTextArea{
+        width: 98vw;
+    }
 }

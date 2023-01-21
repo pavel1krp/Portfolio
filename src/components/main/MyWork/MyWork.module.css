@@ -25,5 +25,7 @@ button{
     }
 }
 @media (max-width: 640px) {
-
+    .myWork{
+        margin: 40px 0 ;
+    }
 }

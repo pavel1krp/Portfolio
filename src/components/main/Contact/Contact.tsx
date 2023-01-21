@@ -7,8 +7,8 @@ export const Contact = () => {
             <div className={styles.contactFormDiv}>
                 <h3>Контакты</h3>
                 <form action="" className={styles.contactForm}>
-                    <input type="text"/>
-                    <input type="text"/>
+                    <input className={styles.contactInput} type="text"/>
+                    <input className={styles.contactInput} type="text"/>
                     <textarea className={styles.contactTextArea} name="" id="">
                     </textarea>
                     <button>Отправить</button>
