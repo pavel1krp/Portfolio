@@ -27,11 +27,21 @@
     .mySkills{
         width: 300px;
         margin: 20px;
+        border: none;
     }
 
     .mySkillsBottom{
         padding: 20px 0;
         flex-direction: column;
         align-items: center;
+    }
+    .mySkillsTop{
+        width:200px ;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: none;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
     }
 }

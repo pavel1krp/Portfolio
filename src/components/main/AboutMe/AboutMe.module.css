@@ -30,6 +30,9 @@
 @media (max-width: 860px ) {
     .aboutMeContent{
         gap: 20px;
+        border: none;
+        background-color: #282c34;
+        border-radius: 10px;
     }
 }
 @media (max-width: 640px ) {

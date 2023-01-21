@@ -5,11 +5,7 @@
     justify-content: center;
     align-items: center;
 }
-.MyWorkItem{
-    min-height: 300px;
-    min-width: 300px;
-    border: 2px solid #282c34;
-}
+
 .MyWorkSeeButton{
     background-color: black;
     border-radius: 5px;
@@ -17,4 +13,7 @@
     min-height: 30px;
     color: white;
     border: none;
+}
+@media (max-width: 860px ) {
+
 }
