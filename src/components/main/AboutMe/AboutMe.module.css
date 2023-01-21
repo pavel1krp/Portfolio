@@ -26,6 +26,7 @@
 .avatar{
     height: 220px;
     width: 155px;
+    background-color: gray;
 }
 @media (max-width: 860px ) {
     .aboutMeContent{

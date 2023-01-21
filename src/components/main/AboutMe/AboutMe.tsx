@@ -8,7 +8,10 @@ const AboutMe = () => {
                 <div className={style.aboutMeTextContainer}>
                     <p className={style.aboutMeText}>Привет! Меня зовут Павел Шилин. Я Front-end разработчик</p>
                 </div>
-                <img src={me}  alt="" className={style.avatar}/>
+                {/*<img src={me}  alt="" className={style.avatar}/>*/}
+                <div className={style.avatar}>
+
+                </div>
             </div>
         </div>
     );

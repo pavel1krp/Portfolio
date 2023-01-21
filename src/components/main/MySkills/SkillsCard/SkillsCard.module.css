@@ -20,7 +20,7 @@
 }
 @media (max-width: 860px ) {
     .cardContainer{
-        min-width: 150px
+        min-width: 200px
     }
 }
 @media (max-width: 640px) {
