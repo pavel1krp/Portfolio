@@ -26,7 +26,7 @@
 .avatar{
     height: 220px;
     width: 155px;
-    background-color: gray;
+    background-color:#c8d5ff ;
 }
 @media (max-width: 860px ) {
     .aboutMeContent{
@@ -34,6 +34,9 @@
         border: none;
         background-color: #282c34;
         border-radius: 10px;
+    }
+    .avatar{
+        background-color: gray;
     }
 }
 @media (max-width: 640px ) {
