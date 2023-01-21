@@ -5,12 +5,12 @@
     align-items: center;
 }
 .myWork{
-    width: 600px;
+    width: 820px;
     border: 2px solid ;
     margin: 40px ;
 }
-myWorkTop{
-
+.myWorkTop{
+    border: 2px solid ;
 }
 button{
     cursor: pointer;
@@ -19,8 +19,11 @@ button{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 860px ) {
+    .myWorkBottom{
+        flex-direction: column;
+    }
+}
 @media (max-width: 640px) {
-   .myWorkBottom{
-       flex-direction: column;
-   }
+
 }

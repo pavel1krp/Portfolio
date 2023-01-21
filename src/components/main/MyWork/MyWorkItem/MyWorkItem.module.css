@@ -1,20 +1,20 @@
 .backgroundDiv{
     background: #c8d5ff;
-    min-height: 150px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .MyWorkItem{
-    min-height: 250px;
-    min-width: 250px;
+    min-height: 300px;
+    min-width: 300px;
     border: 2px solid #282c34;
 }
 .MyWorkSeeButton{
     background-color: black;
     border-radius: 5px;
     width: 100px;
-    height: 30px;
+    min-height: 30px;
     color: white;
     border: none;
 }

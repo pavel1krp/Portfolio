@@ -5,7 +5,7 @@ const MyWork = () => {
     return (
         <div className={styles.myWorkWrapper}>
             <div className={styles.myWork}>
-                <div className={''}>
+                <div className={styles.myWorkTop}>
                     <h2>Мои работы</h2>
                 </div>
                 <div className={styles.myWorkBottom}>
