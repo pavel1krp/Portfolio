@@ -1,11 +1,24 @@
-.contact{
+.contact {
     background-color: gray;
     padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.contactFormDiv{
+
+.titleContainer {
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    background-color: gold;
+    width: 40px;
+    position: absolute;
+    height: 1px;
+}
+
+.contactFormDiv {
     border: 2px solid black;
     width: 780px;
     display: flex;
@@ -13,7 +26,8 @@
     align-items: center;
     padding: 20px;
 }
-.contactForm{
+
+.contactForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,34 +35,42 @@
     gap: 20px;
 
 }
-.contactInput{
+
+.contactInput {
     height: 18px;
     width: 350px;
 }
-.contactTextArea{
+
+.contactTextArea {
     height: 70px;
     width: 350px;
     resize: none;
 }
+
 @media (max-width: 860px ) {
-    .contactFormDiv{
+    .contactFormDiv {
         border: none;
     }
-    .contactInput{
+
+    .contactInput {
         width: 80vw;
     }
-    .contactTextArea{
-        width: 80vw ;
+
+    .contactTextArea {
+        width: 80vw;
     }
 }
+
 @media (max-width: 640px) {
-    .contactFormDiv{
+    .contactFormDiv {
         padding: 0
     }
-    .contactInput{
+
+    .contactInput {
         width: 98vw;
     }
-    .contactTextArea{
+
+    .contactTextArea {
         width: 98vw;
     }
 }
