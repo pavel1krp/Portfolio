@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {SkillsCard} from "./SkillsCard/SkillsCard";
-import styles from "./MySkills.module.css"
+import styles from "./MySkills.module.scss"
 
 export class MySkills extends Component {
     render() {
