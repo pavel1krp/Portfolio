@@ -1,7 +1,9 @@
+@import '../../Common/sass/variables.scss';
+
 .header{
-    background-color: #282c34;
+    background-color: $backgroundFirstColor;
     height: 80px;
-    color: white;
+    color: $smallTextColor;
     display: flex;
     align-items: center;
     justify-content: flex-end;

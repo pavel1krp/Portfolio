@@ -1,0 +1,9 @@
+@import '../../../Common/sass/variables.scss';
+.nav{
+   display: flex;
+   gap: 20px;
+}
+a{
+   text-decoration: none;
+   color: $smallTextColor;
+}

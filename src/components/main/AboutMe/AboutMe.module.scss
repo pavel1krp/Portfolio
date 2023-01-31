@@ -1,0 +1,57 @@
+@import '../../../Common/sass/variables.scss';
+
+.aboutMe {
+  background-color: $backgroundFirstColor;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+
+  .aboutMeContent {
+    display: flex;
+    padding: 50px;
+    gap: 220px;
+    align-items: center;
+
+    .aboutMeTextContainer {
+      text-align: center;
+      max-width: 300px;
+      min-height: 80px;
+      min-width: 100px;
+      border-radius: 10px;
+      .myName{
+        color: $titleColor;
+      }
+      .aboutMeText{
+        color: $textColor;
+      }
+    }
+    .avatar {
+      height: 242px;
+      width: 170px;
+      background-color: #c8d5ff;
+    }
+  }
+}
+@media (max-width: 860px) {
+  .aboutMeContent {
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    .avatar {
+      background-color: gray;
+    }
+  }
+
+}
+
+@media (max-width: 640px) {
+  .aboutMe {
+    padding: 20px;
+    .aboutMeContent {
+      flex-direction: column;
+    }
+  }
+
+}

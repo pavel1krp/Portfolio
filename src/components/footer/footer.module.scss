@@ -1,6 +1,7 @@
+@import '../../Common/sass/variables.scss';
 .footerWrapper{
     min-height: 260px;
-    background-color: #282c34;
+    background-color: $backgroundSecondColor;
     display: flex;
     justify-content: center;
     align-items: center;

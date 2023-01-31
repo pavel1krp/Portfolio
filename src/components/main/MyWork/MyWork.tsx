@@ -1,6 +1,6 @@
 import React from 'react';
 import {MyWorkItem} from "./MyWorkItem/MyWorkItem";
-import styles from "./MyWork.module.css"
+import styles from "./MyWork.module.scss"
 const MyWork = () => {
     return (
         <div className={styles.myWorkWrapper}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SkillsCard.module.css'
+import styles from './SkillsCard.module.scss'
 export type SkillsCardPropsType = {
     skillName: string
     skillsDescription: string

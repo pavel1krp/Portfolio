@@ -1,5 +1,6 @@
+@import '../../../Common/sass/variables.scss';
 .contact {
-    background-color: gray;
+    background-color: $backgroundFirstColor;
     padding: 20px 40px;
     display: flex;
     align-items: center;

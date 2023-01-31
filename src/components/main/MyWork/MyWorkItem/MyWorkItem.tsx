@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './MyWorkItem.module.css'
+import styles from './MyWorkItem.module.scss'
 
 type MyWorkItemPropsType = {
     projectName:string

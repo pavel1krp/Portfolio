@@ -1,6 +1,7 @@
+@import '../../../Common/sass/variables.scss';
 .remoteWrapper{
     min-height: 250px;
-    background-color: #282c34;
+    background-color: $backgroundSecondColor;
     display: flex;
     align-items: center;
     justify-content: center;

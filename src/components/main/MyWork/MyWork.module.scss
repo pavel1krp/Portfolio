@@ -1,5 +1,6 @@
+@import '../../../Common/sass/variables.scss';
 .myWorkWrapper{
-    background-color: gray;
+    background-color: $backgroundFirstColor;
     display: flex;
     justify-content: center;
     align-items: center;

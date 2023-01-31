@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './RemoteWork.module.css'
+import styles from './RemoteWork.module.scss'
 export const RemoteWork = () => {
     return (
         <div className={styles.remoteWrapper}>
