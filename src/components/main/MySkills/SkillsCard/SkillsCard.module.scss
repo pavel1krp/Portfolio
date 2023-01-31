@@ -1,31 +1,31 @@
-.cardContainer{
-    min-width: 200px;
-    max-width: 250px;
-    background: #c8d5ff;
-}
-.cardContainerTop{
+@import '../../../../Common/sass/variables.scss';
+
+.cardContainer {
+  min-width: 200px;
+  max-width: 250px;
+  background: $secondaryBackgroundColor;
+
+  .cardContainerTop {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid #282c34;
+    .pow {
+      width: 50px;
+      height: 50px;
+      background-color: $secondaryColor;
+    }
+  }
 }
-.pow{
-    width: 50px;
-    height: 50px;
-    background-color: wheat;
+@media (max-width: 860px) {
+  .cardContainer {
+    min-width: 180px
+  }
 }
-.cardContainerBottom{
 
-}
-@media (max-width: 860px ) {
-    .cardContainer{
-        min-width: 180px
-    }
-}
 @media (max-width: 640px) {
-    .cardContainer{
-        margin-bottom: 20px;
-        border: 1px #282c34 solid;
-    }
+  .cardContainer {
+    margin-bottom: 20px;
+  }
 }

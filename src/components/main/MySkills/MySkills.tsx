@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {SkillsCard} from "./SkillsCard/SkillsCard";
 import styles from "./MySkills.module.scss"
+import {Title} from "../../Common/Title";
 
 export class MySkills extends Component {
     render() {
@@ -8,7 +9,7 @@ export class MySkills extends Component {
             <div className={styles.mySkillsContainer}>
                 <div className={styles.mySkills}>
                     <div className={styles.mySkillsTop}>
-                        <h2>Мои скиллы</h2>
+                       <Title title={'My skills'}/>
                     </div>
                     <div className={styles.mySkillsBottom}>
                         <SkillsCard skillsDescription={'Js Description'} skillName={'JS'}/>
