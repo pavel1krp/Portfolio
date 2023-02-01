@@ -14,7 +14,7 @@ export const MyWorkItem = (props:MyWorkItemPropsType) => {
                 <button className={styles.MyWorkSeeButton}>Смотреть</button>
             </div>
             <div>
-                <h4>{projectName}</h4>
+                <h3 className={styles.projectName}>{projectName}</h3>
                 <p>{projectDescription}</p>
             </div>
         </div>

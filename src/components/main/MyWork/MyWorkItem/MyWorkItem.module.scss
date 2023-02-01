@@ -3,10 +3,10 @@
 .MyWorkItem{
     min-width: 310px;
     background: $myWorksBackgroundColor;
-    height: 450px;
+    height: 320px;
     .backgroundDiv{
         background:gray;
-        min-height: 300px;
+        min-height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,13 +27,47 @@
         height: 14px;
         position: absolute;
         left: 405px;
-        top: 30%;
+        top: 37%;
         width: 14px;
-        box-shadow: 0 0 0 3px rgba(105, 105, 105, 0.5);
+  box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
+}
+.backgroundDiv::after{
+    background: #656565 none repeat scroll 0 0;
+    border-radius: 50px;
+    content: "";
+    height: 14px;
+    position: absolute;
+    left: 405px;
+    top: 25%;
+    width: 14px;
+  box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
+}
+.MyWorkSeeButton::after{
+    background: #656565 none repeat scroll 0 0;
+    border-radius: 50px;
+    content: "";
+    height: 14px;
+    position: absolute;
+    left: 405px;
+    top: 74%;
+    width: 14px;
+  box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
+}
+.projectName::after{
+  background: #656565 none repeat scroll 0 0;
+  border-radius: 50px;
+  content: "";
+  height: 14px;
+  position: absolute;
+  left: 405px;
+  top: 85%;
+  width: 14px;
+  box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
 }
 
-@media (max-width: 860px ) {
-    .MyWorkItem::after{
+
+@media (max-width: 960px ) {
+    .MyWorkItem::after, .MyWorkSeeButton::after,.backgroundDiv::after,.projectName::after{
       display: none;
     }
 }

@@ -5,22 +5,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    .remote{
+        min-height: 150px;
+        width: 818px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .hireButton{
+            width: 150px;
+            color: $smallTextColor;
+            background-color: transparent;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid $titleColor;
+        }
+        .hireButton:hover{
+            background-color: $smallTextColor;
+            border: none;
+            color: $secondaryBackgroundColor;
+            transition: .5s;
+        }
+        .aboutWork{
+            color: $smallTextColor;
+        }
+    }
 }
-.remote{
-    min-height: 150px;
-    border: 2px solid gray;
-    width: 818px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-button{
-    width: 150px;
-    color: white;
-    background-color: black;
-    height: 40px;
-}
+
+
 @media (max-width: 860px ) {
     .remote{
         border: none;
