@@ -11,14 +11,6 @@
     position: relative;
 }
 
-.title::after {
-    content: '';
-    background-color: gold;
-    width: 40px;
-    position: absolute;
-    height: 1px;
-}
-
 .contactFormDiv {
     border: 2px solid black;
     width: 780px;

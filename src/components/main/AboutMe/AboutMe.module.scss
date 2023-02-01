@@ -10,8 +10,7 @@
 
   .aboutMeContent {
     display: flex;
-    padding: 50px;
-    gap: 220px;
+    gap: 350px;
     align-items: center;
 
     .aboutMeTextContainer {
@@ -22,18 +21,31 @@
       border-radius: 10px;
       .myName{
         color: $titleColor;
+        font-size: 44px;
       }
       .aboutMeText{
+        font-weight:700 ;
+        color: $textColor;
+        letter-spacing: 1px;
+      }
+      .aboutMeTextSmall{
         color: $textColor;
       }
     }
     .avatar {
-      height: 242px;
-      width: 170px;
-      background-color: #c8d5ff;
+      height: 378px;
+      width: 280px;
+      border-radius: 50px
+    }
+  }
+  @media (max-width: 960px){
+    .aboutMeContent {
+      gap: 150px;
+      padding: 30px;
     }
   }
 }
+
 @media (max-width: 860px) {
   .aboutMeContent {
     gap: 20px;

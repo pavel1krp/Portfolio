@@ -1,25 +1,47 @@
 @import '../../../Common/sass/variables.scss';
-.myWorkWrapper{
+@import '../../../Common/sass/mixin';
+
+.myWorkWrapper {
     background-color: $backgroundFirstColor;
     display: flex;
     justify-content: center;
     align-items: center;
+    .myWork{
+        width: 820px;
+        margin: 40px ;
+        position: relative;
+    }
+    button{
+        cursor: pointer;
+    }
+    .myWorkBottom{
+        display: flex;
+        justify-content: space-between;
+        .rightWork{
+            display: flex;
+            flex-direction: column;
+            gap: 150px;
+            margin-top: 40px;
+        }
+        .leftWork{
+            display: flex;
+            flex-direction: column;
+            gap: 150px;
+            margin-top: 150px;
+        }
+    }
 }
-.myWork{
-    width: 820px;
-    border-bottom: 1px solid ;
-    margin: 40px ;
+
+.myWork::before{
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color:$backgroundSecondColor;
+    position: absolute;
+    top: 50px;
 }
-.myWorkTop{
-    border: 2px solid ;
-}
-button{
-    cursor: pointer;
-}
-.myWorkBottom{
-    display: flex;
-    justify-content: space-between;
-}
+
+
 @media (max-width: 860px ) {
     .myWorkBottom{
         flex-direction: column;
@@ -29,6 +51,9 @@ button{
     }
     .myWorkTop{
         border: none ;
+    }
+    .myWork::before{
+       display: none;
     }
 }
 @media (max-width: 640px) {

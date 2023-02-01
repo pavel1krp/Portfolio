@@ -3,19 +3,15 @@
 .cardContainer {
   min-width: 200px;
   max-width: 250px;
+  min-height: 200px;
   background: $secondaryBackgroundColor;
+  color:$textColor;
 
   .cardContainerTop {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #282c34;
-    .pow {
-      width: 50px;
-      height: 50px;
-      background-color: $secondaryColor;
-    }
   }
 }
 @media (max-width: 860px) {

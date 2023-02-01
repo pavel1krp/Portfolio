@@ -1,22 +1,39 @@
-.backgroundDiv{
-    background: #c8d5ff;
-    min-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@import '../../../../Common/sass/variables.scss';
+
 .MyWorkItem{
     min-width: 310px;
-    background: cadetblue;
+    background: $myWorksBackgroundColor;
+    height: 450px;
+    .backgroundDiv{
+        background:gray;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .MyWorkSeeButton{
+            background-color: $backgroundSecondColor;
+            border-radius: 5px;
+            width: 100px;
+            min-height: 30px;
+            color: white;
+            border: none;
+        }
+    }
 }
-.MyWorkSeeButton{
-    background-color: black;
-    border-radius: 5px;
-    width: 100px;
-    min-height: 30px;
-    color: white;
-    border: none;
+.MyWorkItem::after{
+        background: #656565 none repeat scroll 0 0;
+        border-radius: 50px;
+        content: "";
+        height: 14px;
+        position: absolute;
+        left: 405px;
+        top: 30%;
+        width: 14px;
+        box-shadow: 0 0 0 3px rgba(105, 105, 105, 0.5);
 }
-@media (max-width: 860px ) {
 
+@media (max-width: 860px ) {
+    .MyWorkItem::after{
+      display: none;
+    }
 }
