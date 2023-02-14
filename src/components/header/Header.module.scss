@@ -4,10 +4,6 @@
     background-color: $backgroundFirstColor;
     height: 80px;
     color: $smallTextColor;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding:  0 40px ;
 }
 
 @media (max-width: 640px) {

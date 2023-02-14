@@ -3,12 +3,12 @@ import style from './Nav.module.scss'
 
 export const Nav = () => {
     return (
-        <div className={style.nav}>
-            <a href="">Главое</a>
-            <a href="">Скилы</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
-        </div>
+        <nav className={style.nav}>
+            <a className={style.navLink} href="">Главое</a>
+            <a className={style.navLink} href="">Скилы</a>
+            <a className={style.navLink} href="">Проекты</a>
+            <a className={style.navLink} href="">Контакты</a>
+        </nav>
     );
 };
 

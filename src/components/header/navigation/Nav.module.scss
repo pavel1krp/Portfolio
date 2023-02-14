@@ -1,9 +1,29 @@
 @import '../../../Common/sass/variables.scss';
 .nav{
    display: flex;
+   justify-content: flex-end;
    gap: 20px;
+   padding: 25px 0;
 }
-a{
+.navLink{
+   font-size: 20px;
    text-decoration: none;
    color: $smallTextColor;
+   position: relative;
+}
+.navLink::before {
+   content: '';
+   position: absolute;
+   left: 0; bottom: -5px;
+   width: 0;
+   height: 1.5px;
+   background-color: $smallTextColor;
+}
+
+.navLink:hover:before {
+   width: 100%;
+}
+
+.navLink::before {
+   transition: width 0.35s;
 }
