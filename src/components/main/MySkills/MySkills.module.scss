@@ -1,9 +1,13 @@
 @import '../../../Common/sass/variables.scss';
-
   .skills{
     display: flex;
+    justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
     column-gap: 80px;
     row-gap: 40px;
   }
+@media (max-width: 640px){
+  column-gap: 40px;
+  row-gap: 20px;
+}

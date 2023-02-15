@@ -1,5 +1,13 @@
 @import '../../../../Common/sass/variables.scss';
 @import '../../../../Common/sass/mixin';
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.skillsContainer:hover{
+  animation: spin 1s linear 0s infinite;
+}
 .cardContainer{
 @include centerContainer;
   flex-direction: column;
