@@ -4,7 +4,7 @@ import {Title} from "../../Common/Title";
 
 export const Contact = () => {
     return (
-        <div className={styles.contact}>
+        <section className={styles.contact}>
             <div className={styles.contactFormDiv}>
                 <div className={styles.titleContainer}>
                     <Title title={'GET IN TOUCH'}/>
@@ -20,6 +20,6 @@ export const Contact = () => {
                 </form>
 
             </div>
-        </div>
+        </section>
     );
 };

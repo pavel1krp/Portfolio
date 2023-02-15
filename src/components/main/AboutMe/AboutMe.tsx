@@ -4,7 +4,8 @@ import me from '../../../Assets/Images/myPhoto.jpg'
 
 const AboutMe = () => {
     return (
-        <div className={style.container}>
+        <section className={style.aboutMeWrapper}>
+            <div className="container"></div>
             <div className={style.aboutMe}>
                 <div className={style.aboutMeContent}>
                     <div className={style.aboutMeTextContainer}>
@@ -16,7 +17,7 @@ const AboutMe = () => {
                     <img src={me} alt="" className={style.avatar}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

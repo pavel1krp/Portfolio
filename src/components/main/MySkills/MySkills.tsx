@@ -6,7 +6,7 @@ import {Title} from "../../Common/Title";
 export class MySkills extends Component {
     render() {
         return (
-            <div className={styles.mySkillsContainer}>
+            <section className={styles.mySkillsContainer}>
                 <div className={styles.mySkills}>
                     <div className={styles.mySkillsTop}>
                        <Title title={'My skills'}/>
@@ -17,7 +17,7 @@ export class MySkills extends Component {
                         <SkillsCard skillsDescription={'React Description'} skillName={'React'}/>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

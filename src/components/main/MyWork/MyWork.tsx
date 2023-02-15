@@ -4,7 +4,7 @@ import styles from "./MyWork.module.scss"
 import {Title} from "../../Common/Title";
 const MyWork = () => {
     return (
-        <div className={styles.myWorkWrapper}>
+        <section className={styles.myWorkWrapper}>
             <div className={styles.myWork}>
                 <div className={styles.myWorkTop}>
                     <Title title={'My works'}/>
@@ -20,7 +20,7 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
