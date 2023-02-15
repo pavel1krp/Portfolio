@@ -1,27 +1,15 @@
 @import '../../../../Common/sass/variables.scss';
-
-//.cardContainer {
-//  min-width: 200px;
-//  max-width: 250px;
-//  min-height: 200px;
-//  background: $secondaryBackgroundColor;
-//  color:$textColor;
-//
-//  .cardContainerTop {
-//    display: flex;
-//    flex-direction: column;
-//    align-items: center;
-//    justify-content: center;
-//  }
-//}
-//@media (max-width: 860px) {
-//  .cardContainer {
-//    min-width: 180px
-//  }
-//}
-//
-//@media (max-width: 640px) {
-//  .cardContainer {
-//    margin-bottom: 20px;
-//  }
-//}
+@import '../../../../Common/sass/mixin';
+.cardContainer{
+@include centerContainer;
+  flex-direction: column;
+  max-width: 100px;
+  .skillsContainer{
+    @include centerContainer;
+    margin: 20px 0 0 0 ;
+    width: 100px;
+    height: 100px;
+    background-color: $backgroundFirstColor;
+    border-radius: 50px;
+  }
+}

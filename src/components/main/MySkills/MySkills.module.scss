@@ -1,59 +1,9 @@
 @import '../../../Common/sass/variables.scss';
 
-.mySkillsContainer {
-  background-color: $backgroundSecondColor;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 450px;
-
-  .mySkills {
-    max-width: 900px;
-    padding: 100px 0;
-
-    .mySkillsTop {
-      height: 80px;
-    }
-
-    .mySkillsBottom {
-      display: flex;
-      justify-content: space-between;
-      gap: 110px;
-    }
+  .skills{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 40px;
   }
-
-}
-
-@media (max-width: 860px) {
-  .mySkills {
-    width: 560px;
-
-    .mySkillsBottom {
-      gap: 40px;
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .mySkills {
-    width: 300px;
-    margin: 20px;
-
-    .mySkillsTop {
-      width: 200px;
-      margin: 0 auto;
-      border-radius: 10px;
-      border: none;
-      display: flex;
-      justify-content: center;
-    }
-
-    .mySkillsBottom {
-      padding: 20px 0;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
-
-}
