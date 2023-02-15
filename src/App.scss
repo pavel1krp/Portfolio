@@ -1,3 +1,4 @@
+@import 'Common/sass/variables.scss';
 .App {
   text-align: center;
 }
@@ -39,4 +40,10 @@
   max-width: 1170px;
   padding: 0 40px;
   margin: 0 auto;
+}
+section:nth-child(even){
+  background-color: $backgroundSecondColor;
+}
+section:nth-child(odd){
+  background-color: $secondaryBackgroundColor;
 }

@@ -1,28 +1,21 @@
 @import '../../../Common/sass/variables.scss';
 
-.container{
-  background-color: $backgroundFirstColor;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   .aboutMe {
-    max-width: 1170px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
 
-    .aboutMeContent {
+    .aboutMe {
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
       display: flex;
       align-items: center;
       justify-content: space-between;
-
+      padding: 20px 0;
       .aboutMeTextContainer {
         text-align: center;
         border-radius: 10px;
         .myName{
           color: $titleColor;
-          font-size: 46px;
+          font-size: 44px;
           letter-spacing: 3px;
           line-height: 53px;
         }
@@ -30,9 +23,11 @@
           font-weight:700 ;
           color: $textColor;
           letter-spacing: 1px;
+          font-size: 20px;
         }
         .aboutMeTextSmall{
           color: $textColor;
+          font-size: 18px;
         }
       }
       .avatar {
@@ -49,7 +44,6 @@
       }
     }
   }
-}
 
 @media (max-width: 860px) {
   .aboutMeContent {
