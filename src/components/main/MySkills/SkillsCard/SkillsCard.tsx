@@ -1,20 +1,15 @@
 import React from 'react';
 import styles from './SkillsCard.module.scss'
+import {SkillsType} from "./skills";
 export type SkillsCardPropsType = {
-    skillName: string
-    skillsDescription: string
+    skills: SkillsType
 }
 export const SkillsCard = (props:SkillsCardPropsType ) => {
-    const {skillName, ...RestProps} = props;
+    const {skills, ...RestProps} = props;
+    const {Icons, title, color} = skills
     return (
         <div className={styles.cardContainer}>
-            <div className={styles.cardContainerTop}>
-                <div className={styles.pow}></div>
-                <h3>{skillName}</h3>
-            </div>
-            <div className={styles.cardContainerBottom}>
-                <p>{props.skillsDescription}</p>
-            </div>
+            <Icons size={50} color={color} />
         </div>
     );
 };

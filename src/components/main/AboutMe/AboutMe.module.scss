@@ -1,54 +1,63 @@
 @import '../../../Common/sass/variables.scss';
 
+.aboutMe {
   .aboutMe {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
 
-    .aboutMe {
-      justify-content: center;
-      align-items: center;
-      font-family: 'Montserrat', sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 0;
-      .aboutMeTextContainer {
-        text-align: center;
-        border-radius: 10px;
-        .myName{
-          color: $titleColor;
-          font-size: 44px;
-          letter-spacing: 3px;
-          line-height: 53px;
-        }
-        .aboutMeText{
-          font-weight:700 ;
-          color: $textColor;
-          letter-spacing: 1px;
-          font-size: 20px;
-        }
-        .aboutMeTextSmall{
-          color: $textColor;
-          font-size: 18px;
-        }
+    .aboutMeTextContainer {
+      text-align: center;
+      border-radius: 10px;
+
+      .myName {
+        color: $titleColor;
+        font-size: 44px;
+        letter-spacing: 3px;
+        line-height: 53px;
       }
-      .avatar {
-        height: 453px;
-        width: 336px;
-        border-radius: 50px
+
+      .aboutMeText {
+        font-weight: 700;
+        color: $textColor;
+        letter-spacing: 1px;
+        font-size: 20px;
+      }
+
+      .aboutMeTextSmall {
+        color: $textColor;
+        font-size: 18px;
       }
     }
-    @media (max-width: 960px){
-      .aboutMeContent {
-        min-width: 600px;
-        max-width: 800px;
-        padding: 30px;
-      }
+
+    .avatar {
+      height: 453px;
+      width: 336px;
+      border-radius: 50px
     }
   }
+
+  @media (max-width: 960px) {
+    .aboutMe {
+      flex-direction: column;
+    }
+    .aboutMeContent {
+      min-width: 600px;
+      max-width: 800px;
+      padding: 30px;
+    }
+  }
+}
 
 @media (max-width: 860px) {
   .aboutMeContent {
     border: none;
     border-radius: 10px;
+
     .avatar {
       background-color: gray;
     }
@@ -58,9 +67,23 @@
 
 @media (max-width: 640px) {
   .aboutMe {
-    padding: 20px;
-    .aboutMeContent {
-      flex-direction: column;
+    .aboutMe {
+      padding: 20px;
+
+      .aboutMeContent {
+        flex-direction: column;
+      }
+      .aboutMeTextContainer{
+        .myName {
+          font-size: 38px;
+          letter-spacing: 3px;
+        }
+      }
+      .avatar {
+        height: 362px;
+        width: 269px;
+        border-radius: 50px
+      }
     }
   }
 }
