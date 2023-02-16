@@ -1,46 +1,67 @@
 @import '../../../Common/sass/variables.scss';
+@import '../../../Common/sass/mixin';
 
-.contact {
-  background-color: $backgroundFirstColor;
-  padding: 20px 40px;
+.contactWrapper {
   display: flex;
-  padding: 80px 0;
 
-  .contactFormDiv {
-    width: 780px;
+  .contact {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+
+    .contactFormDiv {
+      width: 780px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
 
 
-    .titleContainer {
-      position: relative;
+      .titleAndContact {
+        position: relative;
+      }
+    }
+
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+    }
+
+    .contactInput {
+      height: 18px;
+      width: 350px;
+      background-color: rgba(0, 0, 0, 0);
+      border-right: none;
+    }
+
+    .contactTextArea {
+      height: 70px;
+      width: 350px;
+      resize: none;
+      background-color: transparent;
     }
   }
+}
 
-  .contactForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
+.contactItemContainer {
+  @include centerContainer;
+  color: $contactTextColor;
+  margin: 40px 0 ;
+  .contactImage {
+    width: 50px;
+    height: 50px;
+    border: 1px solid $contactTextColor;
+    border-radius: 50px;
   }
 
-  .contactInput {
-    height: 18px;
-    width: 350px;
-    background-color: rgba(0, 0, 0, 0);
-    border-right: none;
-  }
-  .contactTextArea {
-    height: 70px;
-    width: 350px;
-    resize: none;
-    background-color: transparent;
+  .contactText {
+    background-color: $secondaryBackgroundColor;
   }
 }
+
+
 @media (max-width: 860px) {
 
   .contactInput {
