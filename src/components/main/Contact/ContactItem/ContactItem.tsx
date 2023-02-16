@@ -10,7 +10,7 @@ export const ContactItem = (props:ContactItemPropsType) => {
     return (
         <div className={style.contactItemContainer}>
             <div className={style.contactImage}>
-                <img src="" alt=""/>
+                {/*<img src="" alt={props.title}/>*/}
             </div>
             <div className={style.contactText}>
                 <h4>{props.title}</h4>

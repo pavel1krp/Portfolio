@@ -20,7 +20,7 @@ export const Contact = () => {
                             {mappedContacts}
                         </div>
                     </div>
-                    <div>
+                    <div className={styles.formWrapper}>
                         <form action="" className={styles.contactForm}>
                             <input placeholder={'Your name'} className={styles.contactInput} type="text"/>
                             <input placeholder={'Your email'} className={styles.contactInput} type="text"/>

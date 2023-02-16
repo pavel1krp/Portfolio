@@ -43,12 +43,19 @@
       background-color: transparent;
     }
   }
+  .formWrapper{
+    display: flex;
+    align-items: center;
+  }
 }
 
 .contactItemContainer {
   @include centerContainer;
   color: $contactTextColor;
   margin: 40px 0 ;
+  justify-content: start;
+  gap: 20px;
+  text-align: start;
   .contactImage {
     width: 50px;
     height: 50px;
@@ -60,6 +67,7 @@
     background-color: $secondaryBackgroundColor;
   }
 }
+
 
 
 @media (max-width: 860px) {
