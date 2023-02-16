@@ -7,7 +7,7 @@ import {contacts} from "./ContactItem/Contact";
 export const Contact = () => {
     const mappedContacts = contacts.map(el=>{
         return(
-            <ContactItem title={el.title} description={el.description}/>
+            <ContactItem title={el.title} description={el.description} icon={el.icon}/>
         )
     })
     return (
@@ -26,7 +26,7 @@ export const Contact = () => {
                             <input placeholder={'Your email'} className={styles.contactInput} type="text"/>
                             <textarea placeholder={'Your message'} className={styles.contactTextArea} name="" id="">
                     </textarea>
-                            <button>SEND MESSAGE</button>
+                            <input className={styles.submitButton} type="submit" value={'SEND MESSAGE'}/>
                         </form>
                     </div>
                 </div>

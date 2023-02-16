@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SkillsCard.module.scss'
 import {SkillsType} from "./skills";
+import {AiFillPhone} from "react-icons/all";
 
 export type SkillsCardPropsType = {
     skills: SkillsType
