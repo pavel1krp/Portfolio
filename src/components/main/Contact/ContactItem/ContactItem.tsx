@@ -14,8 +14,8 @@ export const ContactItem = (props:ContactItemPropsType) => {
                 <props.icon size={30} />
             </div>
             <div className={style.contactText}>
-                <h4>{props.title}</h4>
-                <p>{props.description}</p>
+                <h4 className={style.contactName}>{props.title}</h4>
+                <p className={style.contactDescription}>{props.description}</p>
             </div>
         </div>
     );

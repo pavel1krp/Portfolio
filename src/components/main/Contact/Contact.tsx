@@ -13,10 +13,10 @@ export const Contact = () => {
     return (
         <section className={styles.contactWrapper}>
             <div className="container">
+                <Title title={'GET IN TOUCH'}/>
                 <div className={styles.contact}>
                     <div className={styles.contactFormDiv}>
                         <div className={styles.titleAndContact}>
-                            <Title title={'GET IN TOUCH'}/>
                             {mappedContacts}
                         </div>
                     </div>
