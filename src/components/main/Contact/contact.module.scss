@@ -2,11 +2,9 @@
 @import '../../../Common/sass/mixin';
 
 .contactWrapper {
-  display: flex;
 
   .contact {
     display: flex;
-    gap: 450px;
 
     .contactFormDiv {
       display: flex;
