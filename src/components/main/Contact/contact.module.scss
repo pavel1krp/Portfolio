@@ -6,7 +6,6 @@
   .contact {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 
     .contactFormDiv {
       display: flex;
@@ -24,8 +23,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 50px;
-      width: 420px;
+      gap: 40px;
+      width: 520px;
       .inputDiv{
         display: flex;
         gap:20px;
@@ -42,7 +41,7 @@
     }
 
     .contactTextArea {
-      height: 70px;
+      height: 120px;
       width: 100%;
       resize: none;
       background-color: transparent;
@@ -51,8 +50,7 @@
   }
 
   .formWrapper {
-    display: flex;
-    align-items: center;
+    @include centerContainer;
 
     .submitButton {
       background-color: $smallTextColor;
@@ -102,38 +100,17 @@
   }
 }
 
-
-//@media (max-width: 1220px) {
-//  .contactWrapper {
-//
-//    .contact {
-//      display: flex;
-//    }
-//  }
-//}
-
-//@media (max-width: 1050px) {
-//  .contactWrapper {
-//    .contact {
-//    flex-direction: column;
-//      gap: 10px;
-//      .contactInput {
-//        //width: 80vw;
-//      }
-//      .contactTextArea {
-//        //width: 80vw;
-//      }
-//    }
-//  }
-//  //.contactInput {
-//  //  width: 80vw;
-//  //}
-//  //
-//  //.contactTextArea {
-//  //  width: 80vw;
-//  //}
-//}
-
 @media (max-width: 880px) {
-
+  .contactWrapper{
+    .formWrapper{
+      width: 100%;
+    }
+    .contact{
+      flex-direction:column;
+      align-items: center;
+      .contactForm{
+        width: 100%;
+      }
+    }
+  }
 }
