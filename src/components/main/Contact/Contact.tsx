@@ -5,8 +5,8 @@ import {ContactItem} from "./ContactItem/ContactItem";
 import {contacts} from "./ContactItem/Contact";
 
 export const Contact = () => {
-    const mappedContacts = contacts.map(el=>{
-        return(
+    const mappedContacts = contacts.map(el => {
+        return (
             <ContactItem title={el.title} description={el.description} icon={el.icon}/>
         )
     })
@@ -22,8 +22,10 @@ export const Contact = () => {
                     </div>
                     <div className={styles.formWrapper}>
                         <form action="" className={styles.contactForm}>
-                            <input placeholder={'Your name'} className={styles.contactInput} type="text"/>
-                            <input placeholder={'Your email'} className={styles.contactInput} type="text"/>
+                            <div className={styles.inputDiv}>
+                                <input placeholder={'Your name'} className={styles.contactInput} type="text"/>
+                                <input placeholder={'Your email'} className={styles.contactInput} type="text"/>
+                            </div>
                             <textarea placeholder={'Your message'} className={styles.contactTextArea} name="" id="">
                     </textarea>
                             <input className={styles.submitButton} type="submit" value={'SEND MESSAGE'}/>

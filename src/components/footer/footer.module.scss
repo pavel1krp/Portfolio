@@ -2,13 +2,11 @@
 .footerWrapper{
     min-height: 260px;
     background-color: $backgroundSecondColor;
-    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
 .footerContent{
-    width: 816px;
     height: 160px;
     display: flex;
     justify-content: space-between;
