@@ -1,46 +1,51 @@
 @import '../../Common/sass/variables.scss';
-.footerWrapper{
-    min-height: 260px;
-    background-color: $backgroundSecondColor;
-    justify-content: center;
-    align-items: center;
-    color: white;
+
+.footerWrapper {
+  min-height: 260px;
+  background-color: $backgroundSecondColor;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.footerContent{
-    height: 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.footerContent {
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.socialContainer{
-    border: gray 1px solid;
-    display: flex;
-    gap: 50px;
+
+.socialContainer {
+  border: gray 1px solid;
+  display: flex;
+  gap: 50px;
 }
-.social{
-    width: 50px;
-    height: 50px;
-    background-color: gray;
+
+.social {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
 }
-@media (max-width: 860px ) {
-    .footerContent{
-        border: none;
-        max-width: 780px;
-        margin: 10px;
-    }
-    .socialContainer{
-        gap: 45px;
-    }
-    .social{
-        width: 45px;
-        height: 45px;
-    }
-    .text   {
-        background-color: cadetblue;
-        padding: 5px;
-        border-radius: 5px;
-    }
-    .footerWrapper{
-        min-height: 230px;
-    }
+
+@media (max-width: 860px) {
+  .footerContent {
+    border: none;
+    max-width: 780px;
+    margin: 10px;
+  }
+  .socialContainer {
+    gap: 45px;
+  }
+  .social {
+    width: 45px;
+    height: 45px;
+  }
+  .text {
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .footerWrapper {
+    min-height: 230px;
+  }
 }
