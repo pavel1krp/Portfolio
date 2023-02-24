@@ -1,6 +1,6 @@
 import {FaPhone} from "react-icons/fa";
-import {BsTelegram} from "react-icons/bs";
-import {AiOutlineMail} from "react-icons/ai";
+import { AiOutlineMail} from "react-icons/ai";
+import {VscLocation} from "react-icons/vsc";
 
 export type ContactType = {
     title:string,
@@ -15,9 +15,9 @@ export const contacts:Array<ContactType> = [
         icon:FaPhone
     },
     {
-        title:'Telegram',
-        description: 'https://t.me/PavelShylin',
-        icon:BsTelegram
+        title:'Location',
+        description: 'Belarus, Minsk',
+        icon:VscLocation
     },
     {
         title:'Email',
