@@ -1,27 +1,27 @@
 import {FaPhone} from "react-icons/fa";
-import { AiOutlineMail} from "react-icons/ai";
+import {AiOutlineMail} from "react-icons/ai";
 import {VscLocation} from "react-icons/vsc";
 
 export type ContactType = {
-    title:string,
+    title: string,
     description: string,
-    icon:any
+    icon: any
 }
 
-export const contacts:Array<ContactType> = [
+export const contacts: Array<ContactType> = [
     {
-        title:'Phone',
+        title: 'Phone',
         description: '+375298575912',
-        icon:FaPhone
+        icon: FaPhone
     },
     {
-        title:'Location',
+        title: 'Location',
         description: 'Belarus, Minsk',
-        icon:VscLocation
+        icon: VscLocation
     },
     {
-        title:'Email',
+        title: 'Email',
         description: 'pavel07007@gmail.com',
-        icon:AiOutlineMail
+        icon: AiOutlineMail
     }
 ]
