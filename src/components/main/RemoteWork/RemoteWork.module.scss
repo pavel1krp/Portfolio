@@ -17,17 +17,16 @@
 
     .hireButton {
       width: 150px;
-      color: $smallTextColor;
-      background-color: transparent;
+      background-color: $smallTextColor;
       height: 40px;
       border-radius: 20px;
-      border: 1px solid $titleColor;
+      border:none;
     }
 
     .hireButton:hover {
-      background-color: $smallTextColor;
+      background-color: black;
       border: none;
-      color: $secondaryBackgroundColor;
+      color: $smallTextColor;
       transition: .5s;
     }
 
