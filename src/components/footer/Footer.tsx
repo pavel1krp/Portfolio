@@ -10,9 +10,11 @@ export const Footer = () => {
                     </div>
                     <p className={styles.text}>Copyright &#169; 2023</p>
                     <div className={styles.contactFooter}>
-                            GITHUB
-                            TELEGRAM
-                            LINKEDIN
+                        <a href="">GITHUB</a>
+                        <a href="">TELEGRAM</a>
+                        <a href="">LINKEDIN</a>
+
+
                     </div>
                 </div>
             </div>
