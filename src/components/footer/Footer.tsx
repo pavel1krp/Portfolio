@@ -13,8 +13,6 @@ export const Footer = () => {
                         <a href="">GITHUB</a>
                         <a href="">TELEGRAM</a>
                         <a href="">LINKEDIN</a>
-
-
                     </div>
                 </div>
             </div>
