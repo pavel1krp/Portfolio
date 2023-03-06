@@ -1,63 +1,74 @@
 @import '../../../../Common/sass/variables.scss';
 
-.MyWorkItem{
-    min-width: 310px;
-    background: $myWorksBackgroundColor;
-    height: 300px;
-    .backgroundDiv{
-        background:gray;
-        min-height: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .MyWorkSeeButton{
-            background-color: $backgroundSecondColor;
-            border-radius: 5px;
-            width: 100px;
-            min-height: 30px;
-            color: white;
-            border: none;
-        }
-      button:hover{
-        background-color: black;
-        transition: 1s;
-      }
+.MyWorkItem {
+  min-width: 310px;
+  background: $myWorksBackgroundColor;
+  min-height: 250px;
+
+  .backgroundDiv {
+    background: gray;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .MyWorkSeeButton {
+      background-color: $backgroundSecondColor;
+      border-radius: 5px;
+      width: 100px;
+      min-height: 30px;
+      color: white;
+      border: none;
     }
+
+    button:hover {
+      background-color: black;
+      transition: 1s;
+    }
+  }
+
+  .descriptionDiv {
+    margin: 20px;
+  }
 }
-.MyWorkItem::after{
-        background: #656565 none repeat scroll 0 0;
-        border-radius: 50px;
-        content: "";
-        height: 14px;
-        position: absolute;
-        left: 405px;
-        top: 37%;
-        width: 14px;
+
+.MyWorkItem::after {
+  background: #656565 none repeat scroll 0 0;
+  border-radius: 50px;
+  content: "";
+  height: 14px;
+  position: absolute;
+  left: 405px;
+  top: 37%;
+  width: 14px;
   box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
 }
-.backgroundDiv::after{
-    background: #656565 none repeat scroll 0 0;
-    border-radius: 50px;
-    content: "";
-    height: 14px;
-    position: absolute;
-    left: 405px;
-    top: 25%;
-    width: 14px;
+
+.backgroundDiv::after {
+  background: #656565 none repeat scroll 0 0;
+  border-radius: 50px;
+  content: "";
+  height: 14px;
+  position: absolute;
+  left: 405px;
+  top: 25%;
+  width: 14px;
   box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
 }
-.MyWorkSeeButton::after{
-    background: #656565 none repeat scroll 0 0;
-    border-radius: 50px;
-    content: "";
-    height: 14px;
-    position: absolute;
-    left: 405px;
-    top: 74%;
-    width: 14px;
+
+.MyWorkSeeButton::after {
+  background: #656565 none repeat scroll 0 0;
+  border-radius: 50px;
+  content: "";
+  height: 14px;
+  position: absolute;
+  left: 405px;
+  top: 74%;
+  width: 14px;
   box-shadow: 0 0 0 3px rgba(135, 135, 135, 0.4);
 }
-.projectName::after{
+
+.projectName::after {
   background: #656565 none repeat scroll 0 0;
   border-radius: 50px;
   content: "";
@@ -70,8 +81,8 @@
 }
 
 
-@media (max-width: 960px ) {
-    .MyWorkItem::after, .MyWorkSeeButton::after,.backgroundDiv::after,.projectName::after{
-      display: none;
-    }
+@media (max-width: 960px) {
+  .MyWorkItem::after, .MyWorkSeeButton::after, .backgroundDiv::after, .projectName::after {
+    display: none;
+  }
 }
