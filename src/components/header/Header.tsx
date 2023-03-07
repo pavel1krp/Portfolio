@@ -4,7 +4,7 @@ import {Nav} from "./navigation/Nav";
 
 export const Header = () => {
     return (
-        <div className={style.header}>
+        <div className={style.headerContainer}>
             <div className="container">
                 <header className={style.header}>
                     <Nav/>
