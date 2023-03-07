@@ -26,3 +26,9 @@
 .navLink::before {
    transition: width 0.35s;
 }
+@media (max-width: 860px) {
+   .navLink{
+      font-size: 16px;
+
+   }
+}
