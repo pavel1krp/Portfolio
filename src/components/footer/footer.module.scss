@@ -6,15 +6,18 @@
   justify-content: center;
   align-items: center;
   color: white;
+
   .footerContent {
     height: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .contactFooter{
+
+    .contactFooter {
       display: flex;
       gap: 20px;
-      .link{
+
+      .link {
         text-decoration: none;
         color: white;
       }
