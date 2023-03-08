@@ -11,7 +11,7 @@ export const Contact = () => {
         )
     })
     return (
-        <section className={styles.contactWrapper}>
+        <section id={'contacts'} className={styles.contactWrapper}>
             <div className="container">
                 <Title title={'GET IN TOUCH'}/>
                 <div className={styles.contact}>

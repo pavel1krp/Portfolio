@@ -4,7 +4,7 @@ import me from '../../../Assets/Images/myPhoto.jpg'
 
 const AboutMe = () => {
     return (
-        <section className={style.aboutMeWrapper}>
+        <section id={'aboutMe'} className={style.aboutMeWrapper}>
             <div className="container">
                 <div className={style.aboutMe}>
                     <div className={style.aboutMe}>

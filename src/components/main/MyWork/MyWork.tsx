@@ -4,7 +4,7 @@ import styles from "./MyWork.module.scss"
 import {Title} from "../../Common/Title";
 const MyWork = () => {
     return (
-        <section className={styles.myWorkWrapper}>
+        <section id={'projects'} className={styles.myWorkWrapper}>
             <div className={styles.myWork}>
                 <div className={styles.myWorkTop}>
                     <Title title={'My works'}/>

@@ -11,7 +11,7 @@ export const MySkills = () => {
         )
     })
     return (
-        <section>
+        <section id={'skills'}>
             <div className={'container'}>
                 <Title title={'My skills'}/>
                 <div className={styles.skills}>
