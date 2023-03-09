@@ -1,11 +1,14 @@
 @import 'Common/sass/variables.scss';
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
+
 .App {
   text-align: center;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,14 +43,17 @@
     transform: rotate(360deg);
   }
 }
-.container{
+
+.container {
   max-width: 1170px;
   padding: 40px 40px;
   margin: 0 auto;
 }
-section:nth-child(even){
+
+section:nth-child(even) {
   background-color: $backgroundSecondColor;
 }
-section:nth-child(odd){
+
+section:nth-child(odd) {
   background-color: $secondaryBackgroundColor;
 }
