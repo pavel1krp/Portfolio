@@ -2,7 +2,7 @@
 
 .MyWorkItem {
   min-width: 310px;
-  background: $myWorksBackgroundColor;
+  background: white;
   min-height: 250px;
 
   .backgroundDiv {
@@ -29,6 +29,7 @@
 
   .descriptionDiv {
     margin: 20px;
+   background-color:white;
   }
 }
 
