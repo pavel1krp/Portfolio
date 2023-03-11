@@ -11,12 +11,12 @@ const MyWork = () => {
                 </div>
                 <div className={styles.myWorkBottom}>
                     <div className={styles.rightWork}>
-                        <MyWorkItem projectName={'Social Network'} projectDescription={'Social Network'}/>
-                        <MyWorkItem projectName={'Social Network'} projectDescription={'Social Network'}/>
+                        <MyWorkItem link={'https://pavel1krp.github.io/samurai-way/'} projectName={'Social Network'} projectDescription={'Social Network'}/>
+                        <MyWorkItem link={'https://pavel1krp.github.io/samurai-way/'} projectName={'Social Network'} projectDescription={'Social Network'}/>
                     </div>
                     <div className={styles.leftWork}>
-                        <MyWorkItem projectName={'TodoList'} projectDescription={'TodoList'}/>
-                        <MyWorkItem projectName={'TodoList'} projectDescription={'TodoList'}/>
+                        <MyWorkItem link={'https://pavel1krp.github.io/samurai-way/'} projectName={'TodoList'} projectDescription={'TodoList'}/>
+                        <MyWorkItem link={'https://pavel1krp.github.io/samurai-way/'} projectName={'TodoList'} projectDescription={'TodoList'}/>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import styles from './MyWorkItem.module.scss'
 type MyWorkItemPropsType = {
     projectName:string
     projectDescription:string
+    link:string
 }
 
 export const MyWorkItem = (props:MyWorkItemPropsType) => {
@@ -11,7 +12,7 @@ export const MyWorkItem = (props:MyWorkItemPropsType) => {
     return (
         <div className={styles.MyWorkItem}>
             <div className={styles.backgroundDiv}>
-                <button className={styles.MyWorkSeeButton}><a href="">Open</a></button>
+                <button className={styles.MyWorkSeeButton}><a href={props.link}>Open</a></button>
             </div>
             <div className={styles.descriptionDiv}>
                 <h3 className={styles.projectName}>{projectName}</h3>
