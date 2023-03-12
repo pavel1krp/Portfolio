@@ -29,9 +29,13 @@
 @media (max-width: 860px) {
    .nav{
       gap: 10px;
-      .navLink{
-         font-size: 16px;
+   }
 
+}
+@media (max-width: 460px) {
+   .nav{
+      .navLink{
+         font-size: 18px;
       }
    }
 
