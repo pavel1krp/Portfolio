@@ -1,4 +1,5 @@
 @import '../../../../Common/sass/variables.scss';
+@import '../../../../Common/sass/variables.scss';
 
 .MyWorkItem {
   min-width: 310px;
@@ -11,6 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .link{
+      color: $secondaryColor;
+    }
+
+
 
     .MyWorkSeeButton {
       background-color: $backgroundSecondColor;
