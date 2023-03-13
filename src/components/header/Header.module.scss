@@ -1,14 +1,14 @@
 @import '../../Common/sass/variables.scss';
 
-.headerContainer{
-    background-color: $backgroundFirstColor;
-    height: 80px;
-    color: $smallTextColor;
+.headerContainer {
+  background-color: $backgroundFirstColor;
+  height: 80px;
+  color: $smallTextColor;
 }
 
 @media (max-width: 640px) {
-    .header{
-        padding: 0;
-        justify-content: center;
-    }
+  .header {
+    padding: 0;
+    justify-content: center;
+  }
 }
