@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MyWorkItem.module.scss'
-import Social from "*.jpg";
 
 type StyleType = {
     color: string
